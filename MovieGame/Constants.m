@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  Constants.m
 //  MovieGame
 //
 //  Created by Jim Campagno on 4/7/15.
 //  Copyright (c) 2015 Gamesmith, LLC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Constants.h"
 
-@interface ViewController : UIViewController <UIWebViewDelegate>
+@implementation Constants
 
+NSString *const DEFAULT_IMDB_REQUEST = @"http://www.omdbapi.com/";
 
 @end
-
